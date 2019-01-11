@@ -45,6 +45,6 @@ def webhook():
         query = db.insert(photos).values(file_id=call.message.photo[0].file_id)
         ResultProxy = connection.execute(query)
 
-    query_sql = db.select([photos])
-    ResultProxy = connection.execute(query_sql)
-    ResultSet = ResultProxy.fetchall()  # Result of query
+query_sql = db.select([photos])
+ResultProxy = connection.execute(query_sql)
+ResultSet = ResultProxy.fetchall()  # Result of query

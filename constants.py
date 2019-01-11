@@ -1,0 +1,7 @@
+token = '749710534:AAHW9BNMfrZR2RD3p8neuKeuovR1JpOOsKM'
+
+adminId = '167905168'
+
+channelId = '-1001484057390'
+
+PBZ_Id = '-1001182246326'
